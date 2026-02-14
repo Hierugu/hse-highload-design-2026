@@ -34,10 +34,9 @@
 ### 1.3 Нагрузка
 
 #### Пользователи
-В документах к IPO Reddit указывал **~73.1 млн DAUq** и **~267.5 млн WAUq** за Q4 2023.  
-Источник: [**Reddit, Form S‑1 (2024)**](https://www.sec.gov/Archives/edgar/data/1713445/000162828024006294/reddits-1q423.htm) (раздел “Prospectus Summary / Key Metrics”)
+В документах к IPO Reddit указывал **~73.1 млн DAUq** и **~267.5 млн WAUq** за Q4 2023. [1]
 
-Согласно инфомрации с ресурса similarweb.com топ-4 стран по числу пользователей занимают:
+Согласно инфомрации с ресурса similarweb.com [2] топ-4 стран по числу пользователей занимают:
 1. США (110.8 млн. пользователей/месяц)
 2. Индия (24 млн. пользователей/месяц)
 3. Великобритания (18 млн. пользователей/месяц)
@@ -56,3 +55,7 @@
 - Возьмем пиковый коэффициент = x4 → 160k RPS peak
 
 Если один сервер держит условно ~1000 RPS, то нужно порядка: 160k / 1000 = **160 серверов**
+
+### Источники
+1. [Reddit, Form S‑1 (2024)](https://www.sec.gov/Archives/edgar/data/1713445/000162828024006294/reddits-1q423.htm) (раздел “Prospectus Summary / Key Metrics”)
+2. [similarweb.com](https://pro.similarweb.com/?action=website_performance&domain=reddit.com#/digitalsuite/websiteanalysis/website-audience/*/999/3m?webSource=Total&key=reddit.com&selectedTab=geography) (раздел "Audience. Traffic share by country")
