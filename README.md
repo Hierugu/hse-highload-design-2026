@@ -5,7 +5,7 @@
 Массовая платформа сообществ по интересам, куда пользователи приходят за контентом и обсуждениями в тематических сообществах, а не за “друзьями”.
 
 <p align="center">
-  <img src="https://github.com/Hierugu/hse-highload-design-2026/blob/main/img/2.png" alt="Интерфейс reddit" />
+  <img src="https://github.com/Hierugu/hse-highload-design-2026/blob/main/img/2.webp" alt="Интерфейс reddit" />
 </p>
 
 ### 1.1 Основной функционал
