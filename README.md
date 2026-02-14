@@ -59,3 +59,7 @@
 ### Источники
 1. [Reddit, Form S‑1 (2024)](https://www.sec.gov/Archives/edgar/data/1713445/000162828024006294/reddits-1q423.htm) (раздел “Prospectus Summary / Key Metrics”)
 2. [similarweb.com](https://pro.similarweb.com/?action=website_performance&domain=reddit.com#/digitalsuite/websiteanalysis/website-audience/*/999/3m?webSource=Total&key=reddit.com&selectedTab=geography) (раздел "Audience. Traffic share by country")
+
+## 2. Расчет нагрузки
+
+> TODO
