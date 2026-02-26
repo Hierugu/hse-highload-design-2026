@@ -126,20 +126,35 @@
 
 ## 3. Глобальная балансировка нагрузки
 ### Функциональное разбиение по доменам
-Динамика:
-- reddit.com / www.reddit.com — веб
-- api.reddit.com / gql.reddit.com — API/GraphQL
-- oauth.reddit.com — авторизация
-- ws.reddit.com / gateway.reddit.com — realtime (WS/SSE)
 
-Медиа/статика:
-- i.redd.it / img.redd.it / preview.redd.it — изображения
-- v.redd.it — видео (HLS/DASH)
-- redditstatic.com — статические ассеты
+Для поиска доменов использовались инструменты разработчик Chrome, прокси-сервер Charles и сервис www.netify.ai [6]
+
+Основной сайт Reddit
+- www.reddit.com / reddit.com — основная веб‑платформа Reddit
+- api.reddit.com - API Reddit
+
+CDN и статические ассеты Reddit
+- www.redditstatic.com — статические ресурсы
+- styles.redditmedia.com — стили и медиа ассеты
+- emoji.redditmedia.com — хостинг эмодзи и иконок.
+
+Медиа и превью Reddit
+- i.redd.it — хостинг изображений Reddit
+- preview.redd.it — сгенерированные превью и ресайзы изображений
+- external-preview.redd.it — превью для внешних ссылок
+- [a-g].thumbs.redditmedia.com — шарды для миниатюр (thumbnails)
+
+Реалтайм‑сервисы Reddit
+- gql.reddit.com / gql-realtime.reddit.com — сервис GraphQL
+- matrix.redditspace.com — сервис Matrix
+
+Мониторинг и телеметрия Reddit
+- error-tracking.reddit.com — сбор и логирование ошибок клиента
+- w3-reporting.reddit.com — логгирование браузера
 
 Внешние:
 - ads.reddit.com — реклама
-- status.redditstatus.com — статус
+- www.redditstatus.com — статус сервисов
 
 <p align="center">
   <img style="width:25%" src="https://github.com/Hierugu/hse-highload-design-2026/blob/main/img/Charles%20Reddit%20Domains.png" alt="Обращения к доменам Reddit через Charles" />
@@ -181,6 +196,7 @@
 3. [demandsage.com](https://www.demandsage.com/reddit-statistics/) (раздел "Monthly Active Users")
 4. [Reddit 4th Quarter and Full Year 2025 Results](https://investor.redditinc.com/news-events/news-releases/news-details/2026/Reddit-Reports-Fourth-Quarter-and-Full-Year-2025-Results-Announces-1-Billion-Share-Repurchase-Program/default.aspx)
 5. [Reddit Transparency Report: January-June 2025](https://redditinc.com/policies/transparency-report-january-to-june-2025-reddit)
+6. [Reddit Application](https://www.netify.ai/resources/applications/reddit)
 
 > [!WARNING]
 > similarweb.com приводится в отчете только при невозможности найти достоверные данные и как дополнительный источник информации, косвенно валидируемый данными из других источников
