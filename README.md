@@ -131,13 +131,20 @@
 - api.reddit.com / gql.reddit.com — API/GraphQL
 - oauth.reddit.com — авторизация
 - ws.reddit.com / gateway.reddit.com — realtime (WS/SSE)
+
 Медиа/статика:
 - i.redd.it / img.redd.it / preview.redd.it — изображения
 - v.redd.it — видео (HLS/DASH)
 - redditstatic.com — статические ассеты
+
 Внешние:
 - ads.reddit.com — реклама
 - status.redditstatus.com — статус
+
+<p align="center">
+  <img style="width:25%" src="https://github.com/Hierugu/hse-highload-design-2026/blob/main/img/Charles%20Reddit%20Domains.png" alt="Обращения к доменам Reddit через Charles" />
+</p>
+
 ### Обоснованbr расположения ДЦ (влияние на продуктовые метрики)
 ### Расчет распределение запросов из секции "Расчет нагрузки" по типам запросов по датацентрам (при необходимости)
 ### Схема DNS балансировки (при наличии)
