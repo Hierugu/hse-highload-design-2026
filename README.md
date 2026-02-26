@@ -130,31 +130,31 @@
 Для поиска доменов использовались инструменты разработчик Chrome, прокси-сервер Charles и сервис www.netify.ai [6]
 
 Основной сайт Reddit
-- www.reddit.com / reddit.com — основная веб‑платформа Reddit
-- api.reddit.com - API Reddit
+- `www.reddit.com` / `reddit.com` — основная веб‑платформа Reddit
+- `api.reddit.com` - API Reddit
 
 CDN и статические ассеты Reddit
-- www.redditstatic.com — статические ресурсы
-- styles.redditmedia.com — стили и медиа ассеты
-- emoji.redditmedia.com — хостинг эмодзи и иконок.
+- `www.redditstatic.com` — статические ресурсы
+- `styles.redditmedia.com` — стили и медиа ассеты
+- `emoji.redditmedia.com` — хостинг эмодзи и иконок.
 
 Медиа и превью Reddit
-- i.redd.it — хостинг изображений Reddit
-- preview.redd.it — сгенерированные превью и ресайзы изображений
-- external-preview.redd.it — превью для внешних ссылок
-- [a-g].thumbs.redditmedia.com — шарды для миниатюр (thumbnails)
+- `i.redd.it` — хостинг изображений Reddit
+- `preview.redd.it` — сгенерированные превью и ресайзы изображений
+- `external-preview.redd.it` — превью для внешних ссылок
+- `[a-g].thumbs.redditmedia.com` — шарды для миниатюр (thumbnails)
 
 Реалтайм‑сервисы Reddit
-- gql.reddit.com / gql-realtime.reddit.com — сервис GraphQL
-- matrix.redditspace.com — сервис Matrix
+- `gql.reddit.com / gql-realtime.reddit.com` — сервис GraphQL
+- `matrix.redditspace.com` — сервис Matrix
 
 Мониторинг и телеметрия Reddit
-- error-tracking.reddit.com — сбор и логирование ошибок клиента
-- w3-reporting.reddit.com — логгирование браузера
+- `error-tracking.reddit.com` — сбор и логирование ошибок клиента
+- `w3-reporting.reddit.com` — логгирование браузера
 
 Внешние:
-- ads.reddit.com — реклама
-- www.redditstatus.com — статус сервисов
+- `ads.reddit.com` — реклама
+- `www.redditstatus.com` — статус сервисов
 
 <p align="center">
   <img style="width:25%" src="https://github.com/Hierugu/hse-highload-design-2026/blob/main/img/Charles%20Reddit%20Domains.png" alt="Обращения к доменам Reddit через Charles" />
