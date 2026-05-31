@@ -491,7 +491,7 @@ $$N_{итог} = 11 + 1 = 12$$
 | L7 NGINX | $N + 1$ | в пуле всегда на один узел больше, чем нужно для пиковой нагрузки|
 
 <p align="center">
-  <img style="width:50%" src="https://github.com/Hierugu/hse-highload-design-2026/blob/main/img/Balance%20schema.png" alt="Схема локальной балансировки нагрузки" />
+  <img style="width:70%" src="https://github.com/Hierugu/hse-highload-design-2026/blob/main/img/Balance%20schema.png" alt="Схема локальной балансировки нагрузки" />
 </p>
 
 ## 5. Логическая схема БД
