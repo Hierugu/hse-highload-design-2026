@@ -397,7 +397,7 @@ CDN снимает основную нагрузку по трафику: мед
 Для доменов API/Web (`www.reddit.com`, `api.reddit.com`, `gql.reddit.com`) используется GeoDNS, определяя регион пользователя по IP и возвращая адрес ближайшего ДЦ. Для медиа и статики DNS возвращает Anycast-адрес CDN.
 
 <p align="center">
-  <img style="width:25%" src="https://github.com/Hierugu/hse-highload-design-2026/blob/main/img/DNS%20schema.png" alt="Схема DNS балансировки" />
+  <img style="width:35%" src="https://github.com/Hierugu/hse-highload-design-2026/blob/main/img/DNS%20schema.png" alt="Схема DNS балансировки" />
 </p>
 
 ### 3.5 Схема Anycast балансировки
@@ -410,7 +410,7 @@ Anycast применяется только для CDN-трафика из-за 
 3. При cache hit ответ отдаётся с edge, при cache miss - origin pull из S3 в us-east.
 
 <p align="center">
-  <img style="width:25%" src="https://github.com/Hierugu/hse-highload-design-2026/blob/main/img/Anycast%20schema.png" alt="Схема Anycast балансировки" />
+  <img style="width:35%" src="https://github.com/Hierugu/hse-highload-design-2026/blob/main/img/Anycast%20schema.png" alt="Схема Anycast балансировки" />
 </p>
 
 ### 3.6 Механизм регулировки трафика между ДЦ
