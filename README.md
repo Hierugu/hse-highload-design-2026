@@ -681,8 +681,6 @@ PostgreSQL разбит на два шардированных кластера 
   <img style="width:90%" src="https://github.com/Hierugu/hse-highload-design-2026/blob/main/img/Storages.png" alt="Топология хранилищ" />
 </p>
 
-> Машиночитаемый исходник схемы (mermaid) - в [storages.md](storages.md) в корне репозитория.
-
 ### 6.3 Физическое размещение таблиц
 
 | Таблица | Кластер | Ключ шардинга | Индексы | Резервирование |
