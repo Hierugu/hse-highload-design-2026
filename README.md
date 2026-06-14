@@ -520,8 +520,8 @@ $$N_{итог} = 9 + 1 = 10$$
 | **F3** | `comments` -> `post_counters.comments_count` | Инкремент счётчика комментариев поста |
 | **F4** | `subreddit_members` -> `subreddit_counters.member_count` + инвалидация `cache_feed_home` | Пересчёт `member_count`, сброс персональной ленты подписчика |
 | **F5** | `reports` -> очередь модерации | Доставка жалоб в очередь модераторов |
-| **C1** | `sessions` ↔ `cache_session` | Сквозное чтение на каждый авторизованный запрос |
-| **C2** | `posts` + `post_counters` ↔ `cache_feed_subreddit_*` | Материализация топа сообщества |
+| **C1** | `sessions` -> `cache_session` | Сквозное чтение на каждый авторизованный запрос |
+| **C2** | `posts` + `post_counters` -> `cache_feed_subreddit_*` | Материализация топа сообщества |
 | **C3** | `cache_feed_subreddit_hot` -> `cache_feed_home` | Сборка персональной ленты из горячих лент подписанных сообществ с коротким TTL |
 
 ### 5.2 Назначение таблиц
