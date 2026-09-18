@@ -869,7 +869,7 @@ vCPU на ДЦ      = 49*2 (API) + 36 (воркеры + PgBouncer) = 134
 | Kubernetes control plane | managed | - | API-сервер и планировщик на стороне провайдера |
 | S3, CDN | managed | - | бинарные медиа и статика, на стороне провайдера |
 
-Сверх этого managed - S3, CDN и control plane Kubernetes. Redis, Elasticsearch и Kafka стоят в каждом ДЦ, в таблице их число дано суммарно по двум.
+Предоставляются сторонними компаниями - S3, CDN и control plane Kubernetes. Redis, Elasticsearch и Kafka стоят в каждом ДЦ, в таблице их число дано суммарно по двум.
 
 ### Итоговые ресурсы
 
